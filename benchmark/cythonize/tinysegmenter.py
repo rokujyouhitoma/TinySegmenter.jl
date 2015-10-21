@@ -16,7 +16,7 @@ from tinysegmenter import TinySegmenter
 
 def demo():
     segmenter = TinySegmenter()
-    print ' | '.join(segmenter.tokenize(u"私の名前は中野です"))
+    print(u' | '.join(segmenter.tokenize(u"私の名前は中野です")).encode('utf-8'))
 
 if __name__ == '__main__':
     demo()
