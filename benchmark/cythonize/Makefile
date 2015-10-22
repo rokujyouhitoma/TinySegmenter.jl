@@ -5,4 +5,4 @@ build_ext:
 
 clean:
 	@echo Cleaning embed
-	@rm -f *~ *.o *.so core core.* *.c
+	@rm -f *~ *.o *.so core core.* *.c tinysegmenter.html
